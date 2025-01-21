@@ -1,0 +1,51 @@
+.red-border {
+    border: 2px solid red;
+    margin: 3px;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.rounded-1 {
+    border-radius: 7px;
+}
+
+.rounded-2{
+    border-radius: 100px;
+}
+
+.bg-grey {
+    background-color: #121212;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.svg-size {
+    width: 3vw;
+    height: 3vh;
+}
+
+.svg-size-small {
+    width: 2vw;
+    height: 2vh;
+}

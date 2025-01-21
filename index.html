@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/utility.css">
+</head>
+
+<body>
+    <nav class="navbar grid bg-black item-center">
+        <div class="first-nav spotify-logo ">
+            <img class="invert logo" src="/assets/svg/logo.svg" alt="spotify logo svg">
+        </div>
+        <div class="second-nav flex ">
+            <img class="invert svg-size" src="/assets/svg/home.svg" alt="home svg">
+            <div class="search-box-container flex justify-center">
+                <img class="invert svg-size" src="/assets/svg/search.svg" alt="search svg">
+                <input type="text" placeholder="What do you want to play?">
+                <img class="invert svg-size" src="/assets/svg/browse.svg" alt="browse">
+            </div>
+        </div>
+        <div class="third-nav flex ">
+            <div class="sign-up">
+                <button>Sign up</button>
+            </div>
+            <div class="login-btn">
+                <button>Login</button>
+            </div>
+        </div>
+    </nav>
+    <div class="parent-container flex">
+        <div class="left flex rounded-1">
+            <section class="library-section flex item-center">
+                <div class="lib-logo-and-text flex item-center">
+                    <img class="svg-size-small invert " src="/assets/svg/libLogo.svg" alt="Lib Logo">
+                    <p>Your Library</p>
+                </div>
+                <img class="svg-size-small invert" src="/assets/svg/plus.svg" alt="add playlist logo">
+            </section>
+            <section class="playlist-section">
+                <p class="text1">Create your first playlist</p>
+                <p class="text2">It's easy, we'll help you</p>
+                <div class="create-playlist-btn btn-1">
+                    <button>Create Playlist</button>
+                </div>
+            </section>
+            <section class="podcast-section">
+                <p class="text1">Let's find some podcasts to follow</p>
+                <p class="text2">We'll keep you uupdated on new episodes</p>
+                <div class="podcast-btn btn-1">
+                    <button>Browse podcasts</button>
+                </div>
+            </section>
+        </div>
+        <div class="right red-border"></div>
+    </div>
+</body>
+
+</html>
