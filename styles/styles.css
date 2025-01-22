@@ -11,7 +11,7 @@ body {
     background-color: black;
     color: white;
 
-}   
+}
 
 .navbar {
     grid-template-columns: 1fr 4fr 1fr;
@@ -40,6 +40,7 @@ body {
     background-color: #121212;
     flex-direction: column;
     gap: 60px;
+    margin: 10px;
 }
 
 .library-section {
@@ -50,4 +51,13 @@ body {
 
 .right {
     width: 75vw;
+    background-color: #121212;
+}
+
+.footer-left {
+    width: 15vw;
+    height: 85vh;
+    gap: 15px;
+    flex-wrap: wrap;
+    font-size: 10px;
 }
