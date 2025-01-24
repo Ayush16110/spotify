@@ -15,7 +15,9 @@
             <img class="invert logo" src="/assets/svg/logo.svg" alt="spotify logo svg">
         </div>
         <div class="second-nav flex ">
-            <img class="invert svg-size" src="/assets/svg/home.svg" alt="home svg">
+            <div class="home-svg flex item-center justify-center">
+                <img class="invert svg-size" src="/assets/svg/home.svg" alt="home svg">
+            </div>
             <div class="search-box-container flex justify-center">
                 <img class="invert svg-size" src="/assets/svg/search.svg" alt="search svg">
                 <input type="text" placeholder="What do you want to play?">
@@ -24,10 +26,10 @@
         </div>
         <div class="third-nav flex ">
             <div class="sign-up">
-                <button>Sign up</button>
+                <a href="/signup.html"><button>Sign up</button></a>
             </div>
             <div class="login-btn">
-                <button>Login</button>
+                <a href="/login.html"><button href="/login.html">Login</button></a>
             </div>
         </div>
     </nav>
@@ -62,19 +64,20 @@
                 <div class="footer-element">About Ads</div>
                 <div class="footer-element">Accessibility</div>
                 <div class="browse-btn flex item-center justify-center">
-                    <button class="flex item-center"><img class="svg-size-small invert" src="/assets/svg/grid.svg" alt="Grid Svg"> English</button>
+                    <button class="flex item-center"><img class="svg-size-small" src="/assets/svg/grid.svg"
+                            alt="Grid Svg"> English</button>
                 </div>
             </section>
         </div>
         <div class="right rounded-1">
-            <div class="popular-artists"></div>
-            <div class="popular-albums-and-singles"></div>
-            <div class="popular-radio"></div>
-            <div class="india-best"></div>
+            <div class="song-listed">
+
+            </div>
             <footer></footer>
         </div>
     </div>
-    <div class="music-player"></div>
+
+    <script src="/scripts/script.js"></script>
 </body>
 
 </html>

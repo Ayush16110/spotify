@@ -61,3 +61,83 @@ body {
     flex-wrap: wrap;
     font-size: 10px;
 }
+
+.sign-up button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 2000px;
+    border: none;
+    cursor: pointer;
+}
+
+.login-btn button {
+    padding: 10px 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2000px;
+}
+
+.create-playlist-btn {
+    margin-top: 10px;
+}
+
+
+.create-playlist-btn button {
+    padding: 10px 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2000px;
+}
+
+.podcast-btn {
+    margin-top: 10px;
+}
+
+.podcast-btn button {
+    padding: 10px 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2000px;
+}
+
+.browse-btn {
+    margin-top: 10px;
+}
+
+.browse-btn button {
+    padding: 10px 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2000px;
+}
+
+
+.search-box-container {
+    padding: 5px;
+    background-color: #1f1f1f;
+    border-radius: 100px;
+}
+
+.search-box-container input {
+    background-color: #1f1f1f;
+    outline: none;
+    color: white;
+    min-width: 200px;
+    text-decoration: none;
+}
+
+.search-box-container input::placeholder {
+    text-decoration: none;
+}
+
+.search-box-container input::selection {
+    outline: none;
+}
+
+.second-nav .home-svg {
+    background-color: #1f1f1f;
+    border-radius: 100px;
+    min-width: 20px;
+    min-height: 40px;
+}
